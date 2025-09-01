@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Domain name="MADAGASCAR" stamp="VTEXPORT : 7.2.1g FR NT64 2025/05/22 Visual Tom (c) Absyss" version="7.2.1g" generationDate="Mon Sep  1 18:24:59 2025">
+  <JobApplicationServers>
+    <JobApplicationServer id="JASac1bc00170e467a76883840900000003" name="Ansible_IHA" comment="Jobs to run playbook" type="GENERIC">
+      <Properties>
+        <Property key="VTCUSTOM_DEFAULT_QUEUE" value="queue_ansible"/>
+        <Property key="VTCUSTOM_DEFAULT_SCRIPT" value=""/>
+        <Property key="VTCUSTOM_FIELDS.0.COMMENT" value="Path where playbooks are located"/>
+        <Property key="VTCUSTOM_FIELDS.0.DEFAULT_VALUE" value=""/>
+        <Property key="VTCUSTOM_FIELDS.0.NAME" value="Playbook Path"/>
+        <Property key="VTCUSTOM_FIELDS.0.TYPE" value="character"/>
+        <Property key="VTCUSTOM_FIELDS.0.VISIBLE" value="true"/>
+        <Property key="VTCUSTOM_FIELDS.1.COMMENT" value="Name of Playbook to execute"/>
+        <Property key="VTCUSTOM_FIELDS.1.DEFAULT_VALUE" value=""/>
+        <Property key="VTCUSTOM_FIELDS.1.NAME" value="Playbook"/>
+        <Property key="VTCUSTOM_FIELDS.1.TYPE" value="character"/>
+        <Property key="VTCUSTOM_FIELDS.1.VISIBLE" value="true"/>
+        <Property key="VTCUSTOM_FIELDS.2.COMMENT" value="Optional Ansible inventory file"/>
+        <Property key="VTCUSTOM_FIELDS.2.DEFAULT_VALUE" value=""/>
+        <Property key="VTCUSTOM_FIELDS.2.NAME" value="Inventory"/>
+        <Property key="VTCUSTOM_FIELDS.2.TYPE" value="character"/>
+        <Property key="VTCUSTOM_FIELDS.2.VISIBLE" value="true"/>
+        <Property key="VTCUSTOM_FIELDS.3.COMMENT" value="Optional extra variables"/>
+        <Property key="VTCUSTOM_FIELDS.3.DEFAULT_VALUE" value=""/>
+        <Property key="VTCUSTOM_FIELDS.3.NAME" value="Extra vars"/>
+        <Property key="VTCUSTOM_FIELDS.3.TYPE" value="character"/>
+        <Property key="VTCUSTOM_FIELDS.3.VISIBLE" value="true"/>
+        <Property key="VTCUSTOM_FIELDS.4.COMMENT" value="Only run plays and tasks tagged with these values"/>
+        <Property key="VTCUSTOM_FIELDS.4.DEFAULT_VALUE" value=""/>
+        <Property key="VTCUSTOM_FIELDS.4.NAME" value="Tags"/>
+        <Property key="VTCUSTOM_FIELDS.4.TYPE" value="character"/>
+        <Property key="VTCUSTOM_FIELDS.4.VISIBLE" value="true"/>
+        <Property key="VTCUSTOM_FIELDS_COUNT" value="5"/>
+      </Properties>
+    </JobApplicationServer>
+  </JobApplicationServers>
+</Domain>
