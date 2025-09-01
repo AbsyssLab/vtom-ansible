@@ -1,6 +1,7 @@
-# Project Name
+# Ansible integration with Visual TOM
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE.md)&nbsp;
-[![fr](https://img.shields.io/badge/lang-fr-yellow.svg)](README-fr.md)  
+[![fr](https://img.shields.io/badge/lang-fr-yellow.svg)](README-fr.md)
+This project provides an integration between Visual TOM and Ansible to execute Playbook with options or not.
 
 # Disclaimer
 No Support and No Warranty are provided by Absyss SAS for this project and related material. The use of this project's files is at your own risk.
@@ -12,11 +13,12 @@ Consultings days can be requested to help for the implementation.
 # Prerequisites
 
   * Visual TOM 7.1.2 or greater
-  * xxx
+  * python3
+  * ansible
+  * ansible-runner
 
 # Instructions
-
-
+To complete
 
 # License
 This project is licensed under the Apache 2.0 License - see the [LICENSE](license) file for details
