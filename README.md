@@ -18,7 +18,25 @@ Consultings days can be requested to help for the implementation.
   * ansible-runner
 
 # Instructions
-To complete
+
+You need the Python add-on module ansible-runner. To install it, run the following commands using the provided requirement.txt file:
+  ```Execute following PIP command with requirement.txt file
+pip install -U update
+pip install -U -r requirement.txt
+  ```
+
+The ansible.xml template must be imported into VTOM. It contains 5 parameters to be filled in (mandatory or optional):
+ * The working directory containing the playbook(s) (mandatory)
+ * The name of the playbook to execute (.yml) (mandatory)
+ * The inventory file (full path) (optional)
+ * Extra variables (optional)
+ * Tags (optional)
+
+The Python script ansible.py is executed from the queue batch tom_submit.ansible.
+Provide the full path to the ansible.py script in the queue batch. If the script is located in $TOM_SCRIPT, no changes are required.
+  ```To be modified if necessary
+Line 31 : python3 ${TOM_SCRIPT}/ansible.py
+  ``` 
 
 # License
 This project is licensed under the Apache 2.0 License - see the [LICENSE](license) file for details
