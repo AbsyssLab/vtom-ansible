@@ -19,7 +19,8 @@ Il est possible de faire appel à des jours de consulting pour l'implémentation
 
 # Consignes
 
-Il faut disposer du module complémentaire de Python **ansible-runner", pour cela il exécuter les commandes suivantes avec le fichier requirement.txt fourni 
+Il faut disposer du module complémentaire de Python **ansible-runner", pour cela il exécuter les commandes suivantes avec le fichier requirement.txt fourni.
+
   ```Commande PIP à exécuter avec le fichier requirement.txt fourni 
 pip install -U update
 pip install -U -r requirement.txt
@@ -33,9 +34,10 @@ Le modèle **ansible.xml** est à importer sous VTOM, il contient 5 paramètres 
  * les tags (optionnel)
 
 Le script Python **ansible.py** est exécuté à partir de la queue batch tom_submit.ansible
-Si le script **ansible.py** est positionné sous ${TOM_SCRIPT} aucun changement, s'il est positionné dans un autre répertoire de l'agent il faut modifier la queue pour renseigner le chemin :
+Renseigner le chemin complet du script **ansible.py** dans la queue batch. Si positionné dans $TOM_SCRIPT aucun changement à effectuer.
+
   ```à modifier
- python3 ${TOM_SCRIPT}/ansible.py 
+ Ligne 31 : python3 ${TOM_SCRIPT}/ansible.py 
   ```
 
 # Licence
