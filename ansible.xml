@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Domain name="MADAGASCAR" stamp="VTEXPORT : 7.2.1g FR NT64 2025/05/22 Visual Tom (c) Absyss" version="7.2.1g" generationDate="Mon Sep  1 18:24:59 2025">
+<Domain name="ABSYSS" stamp="VTEXPORT : 7.2.1g FR NT64 2025/05/22 Visual Tom (c) Absyss" version="7.2.1g" generationDate="Mon Sep  1 18:24:59 2025">
+  <Queues>
+    <Queue name="queue_ansible" comment="Batch Queue for Ansible integration"/>
+  </Queues>
+  <Icons>
+    <Icon name="Ansible" width="40" height="40" fileSize="1043" fileContent="eJwBRQK6/YlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAgxJREFUeNpjYHRs/U8BPsFAiQEMTq2eYAN4vbr+&#10;y4ROgktwuHX8Z3Nt/88EZHO6d4L5WAw4ycDwn5FBJXra/xdvv/z/++/f/5X7roIlbz5683/+9ov/Rfz7/n/5/uv/p68//x84&#10;/+C/kG8vwnbHVm8GEJi07vR/EPgHNGDfuQf/RQP6wOzL914B2f3/kUH1nP0wA06DbQeBgxce/l+y+/J/QaDptnmL/rsULwUr&#10;/vX7z3/ZsElgdnjjuv+HLj78v+7QDajfW3wZYGDvuftgL5ikzwVLFk/b8//Biw9gje6ly8C0U+GS/5OBLt1z9j5IzRm47SDQ&#10;vOgwWNGPX3/++1ev+r941+X/S/dc+f/q/df/JdP3gOW6lh/7f/fp+/8r9l4F+r3FnwEZCPr2/D9x7SlYISjwQH6vm3cQ7OTF&#10;uy6hhEHjgoPnUWwHAZCz2YHRBLL1H8jvf/7+33Hq7v/bT979v3TnJVjjk9ef/i/ceem/WGB/EAM68Cxb/t8md+H/1sVH/qOD&#10;n8CAhIUBo2PLBYaGBiYMAxbsuIii6dfvv//nbr3wf8ORm3AxkAFAvwczYANxbRv/v/v0/f/rD1//7zh5BxgeT8CxoRQ19f/z&#10;t5/B2KNs+UWstsPCgMuj8z+3RxeeNN8SyhDawIbTAAL4MoPnJHZg0i3E6gqggr/4MINDSziDQwMLg0NrCjYDAFljEVv9nlob&#10;AAAAAElFTkSuQmCCZ0E0vg=="/>
+</Icons> 
   <JobApplicationServers>
-    <JobApplicationServer id="JASac1bc00170e467a76883840900000003" name="Ansible_IHA" comment="Jobs to run playbook" type="GENERIC">
+    <JobApplicationServer id="JASac1bc00170e467a76883840900000003" name="Ansible" comment="Ansible Job to run playbook" type="GENERIC">
       <Properties>
         <Property key="VTCUSTOM_DEFAULT_QUEUE" value="queue_ansible"/>
         <Property key="VTCUSTOM_DEFAULT_SCRIPT" value=""/>
@@ -35,3 +41,4 @@
     </JobApplicationServer>
   </JobApplicationServers>
 </Domain>
+
