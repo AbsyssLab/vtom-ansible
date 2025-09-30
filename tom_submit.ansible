@@ -7,7 +7,7 @@
 # ----------------------------------------------------- #
 
 if  [ -n ${TOM_JOB_ID:-0} ] ; then
-	# Informations display
+	# Information display
 	. $TOM_ADMIN/tom_submit.aff
 	echo "_______________________________________________________________________"
 	date +"%A %d/%m/%Y - %H:%M:%S"
@@ -23,7 +23,7 @@ if  [ -n ${TOM_JOB_ID:-0} ] ; then
 		exit 0
 	fi
 	
-    # done
+    # Done
 	playbook_path=$1
 	playbook=$2
 	
@@ -36,7 +36,7 @@ if  [ -n ${TOM_JOB_ID:-0} ] ; then
 	echo "End of the script."
 	echo " "
 
-	# Management of the return code 
+	# Return Code management 
 	if [ "${stat_fin_job}" = "0" ] ; then
 		echo "--> Exit [${stat_fin_job}] then acknowledgment"
 		${ABM_BIN}/tsend -sT -r${stat_fin_job} -m"Job finished (${stat_fin_job})"
@@ -49,7 +49,7 @@ if  [ -n ${TOM_JOB_ID:-0} ] ; then
 		exit ${stat_fin_job}
 	fi
 
-	# logs file  management
+	# Log files management
     [ "${TOM_LOG_ACTION}" != "   " ] && ${TOM_ADMIN}/gestlog
 else 
 	echo " "
