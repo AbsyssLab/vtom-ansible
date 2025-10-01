@@ -4,8 +4,8 @@
     <Queue name="queue_ansible" comment="Batch Queue for Ansible integration"/>
   </Queues>
   <Icons>
-    <Icon name="Ansible" width="40" height="40" fileSize="1043" fileContent="eJwBRQK6/YlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAgxJREFUeNpjYHRs/U8BPsFAiQEMTq2eYAN4vbr+&#10;y4ROgktwuHX8Z3Nt/88EZHO6d4L5WAw4ycDwn5FBJXra/xdvv/z/++/f/5X7roIlbz5683/+9ov/Rfz7/n/5/uv/p68//x84&#10;/+C/kG8vwnbHVm8GEJi07vR/EPgHNGDfuQf/RQP6wOzL914B2f3/kUH1nP0wA06DbQeBgxce/l+y+/J/QaDptnmL/rsULwUr&#10;/vX7z3/ZsElgdnjjuv+HLj78v+7QDajfW3wZYGDvuftgL5ikzwVLFk/b8//Biw9gje6ly8C0U+GS/5OBLt1z9j5IzRm47SDQ&#10;vOgwWNGPX3/++1ev+r941+X/S/dc+f/q/df/JdP3gOW6lh/7f/fp+/8r9l4F+r3FnwEZCPr2/D9x7SlYISjwQH6vm3cQ7OTF&#10;uy6hhEHjgoPnUWwHAZCz2YHRBLL1H8jvf/7+33Hq7v/bT979v3TnJVjjk9ef/i/ceem/WGB/EAM68Cxb/t8md+H/1sVH/qOD&#10;n8CAhIUBo2PLBYaGBiYMAxbsuIii6dfvv//nbr3wf8ORm3AxkAFAvwczYANxbRv/v/v0/f/rD1//7zh5BxgeT8CxoRQ19f/z&#10;t5/B2KNs+UWstsPCgMuj8z+3RxeeNN8SyhDawIbTAAL4MoPnJHZg0i3E6gqggr/4MINDSziDQwMLg0NrCjYDAFljEVv9nlob&#10;AAAAAElFTkSuQmCCZ0E0vg=="/>
-</Icons> 
+    <Icon name="Ansible" width="40" height="40" fileSize="961" fileContent="eJwBwQM+/IlQTkcNChoKAAAADUlIRFIAAAAoAAAAKAgEAAAAJvdw5gAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpg&#10;AAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfpCgEIJgIsUCyeAAADO0lEQVRIx+WWXUwcVRTHfzvDAnX52gIC&#10;gWKBghRoE2vA8mBr0JBIVCyktg0PRRuNsTEx8aVp2ieVJibE+NjE+MALQWtfTEwj4lf6pU2N0dRoLNKWpqXbCi1fy+62+/eB&#10;pbMzU3YWfOy5yST3zv/87rn33Dl34KEzn+f7QjZQTTF+7nCVvxknstrJTJ7gCL9wh3sIISJc4Qt2E1wNrpT3uZ4A2VuEYZ7F&#10;XBluE98QfyBusYV4m6yV4H5OAVts8xzAnx6ujBGne7l2qdCJnKYnvVQcccfzgeLa747yT+q9gc3uVFTogqQflO9GfoThBex3&#10;x7dPYV3UtDrcwMs87nVYfnM65WhYY9qjmxpQhhv5ZmrgNmacLm2a1VFl65huaJMbOGBftHMHNpBjHzDYhY/PWeAzgrzsDqGG&#10;QCrgo059Lc8zyU3ge/6gmxKnIJgamOnUv0g5pXzCdkIcp5E2p8C0FxgncNreXctOrnKIIgZ5la+YZDfZdkmYWKqkdHM3ect3&#10;KKqjMtSqM5rTx/paU2q1J+WEcwa7NTFhif0aUljtQmi9BhXWv5L67cAPSWmPcMISb9Et/Xj/+8jXe5qR9JfWJ5eIDjzsDWvR&#10;fZLeUXLEezWuu3rFGjvJWi9gCaeX3Ht1UOscB/lp9anOKrW9XjiATqY8q+FiGyI3HWAGh4imgTvnVRgsC9BH2AN3nuZ0cQDZ&#10;vMX4srAIx9IprXYzeJJPueGCLXCW18hbzi31RZ9JI8+xlSoKMJlngt8Z4RS3lnfx+nMA8JNLAIMIM8yjlS71f5p1/2dRw22E&#10;QR1h/FQyhUEDTxEkRJwaosSoYCtlTBEll3JuAxCglSZiiz2rfDVwmFLA5F16KKMLCPI6PgwMoIsS4Blq2cILwDo6E57tNDO7&#10;FJoFbOM6LYCPENVswwCm+YmNxIjiSxTSDIKUkAn4knyrKCVkB1ZSTJQd5AILDNJCESBG+Ja9VNxPRZxRvqMKA7GGQnKACs5w&#10;bim9S3v4GKN8SR6XmKGAXxklwgUCvEQ9/3CeGAWMMUc+jRRwlkuYbKaeLMaYZzO1hLmWfGwMhPBB4gkgwMRPlHhCKXyYwL3E&#10;O4M4cYQfM6F6GO0/2jMhSygaqzYAAAAASUVORK5CYIIdNa38"/>
+  </Icons> 
   <JobApplicationServers>
     <JobApplicationServer id="JASac1bc00170e467a76883840900000003" name="Ansible" comment="Ansible Connector to run playbook" type="GENERIC">
       <Properties>
@@ -37,9 +37,11 @@
         <Property key="VTCUSTOM_FIELDS.4.TYPE" value="character"/>
         <Property key="VTCUSTOM_FIELDS.4.VISIBLE" value="true"/>
         <Property key="VTCUSTOM_FIELDS_COUNT" value="5"/>
+        <Property key="VTCUSTOM_ICON_NAME" value="@Ansible"/>
       </Properties>
     </JobApplicationServer>
   </JobApplicationServers>
 </Domain>
+
 
 
