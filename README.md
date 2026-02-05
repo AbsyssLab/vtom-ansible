@@ -38,6 +38,33 @@ Provide the full path to the ansible.py script in the queue batch. If the script
   ```To be modified if necessary
 Line 31 : python3 ${TOM_SCRIPT}/ansible.py
   ``` 
+# Available Actions
+
+It is possible to execute Ansible playbooks by specifying mandatory and optional arguments.
+
+<img width="688" height="350" alt="image" src="https://github.com/user-attachments/assets/ce176eb5-136c-47fd-af4e-4124e6133f84" />
+
+## Mandatory Arguments
+The main action is to execute an Ansible Playbook by providing the following mandatory inputs:
+- Playbook Path: The directory containing the playbook(s)
+- Playbook: The playbook to execute
+
+## Optional Arguments
+
+### Specific Inventory
+- option: -i (inventory)
+- Uses a custom Ansible inventory
+- Allows targeting different environments (prod, preprod, etc.)
+
+### Dynamic Variables
+- option: -e (extra vars)
+- Injects Ansible variables (extra_vars)
+- Allows modifying the playbook behavior without changing it
+
+### Specific Tasks
+- option: -t (tags)
+- Executes only tagged tasks / roles
+- Useful for targeted operations (patch, restart, deploy…)
 
 # License
 This project is licensed under the Apache 2.0 License - see the [LICENSE](license) file for details
