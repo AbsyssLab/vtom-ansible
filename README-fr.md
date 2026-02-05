@@ -40,6 +40,33 @@ Renseigner le chemin complet du script **ansible.py** dans la queue batch. Si po
   ```à modifier
  Ligne 31 : python3 ${TOM_SCRIPT}/ansible.py 
   ```
+# Actions disponibles
+
+Il est possible d'exécuter des playbooks Ansible en indiquant des arguments obligatoires et optionnels.
+
+<img width="688" height="350" alt="image" src="https://github.com/user-attachments/assets/ce176eb5-136c-47fd-af4e-4124e6133f84" />
+
+## Arguments obligatoire
+L'action principale est d'exécuter un Playbook Ansible en renseignant les deux entrées **obligatoires** suivantes :
+- Playbook Path : Le répertoire contenant le/les playbooks
+- Playbook : le playbook à exécuter
+
+## Arguments optionnels
+
+### Inventaire spécifique
+- option : -i (inventory)
+- Utilise un inventaire Ansible personnalisé
+- Permet de cibler des environnements différents (prod, preprod, etc.)
+
+### Variables dynamiques
+- option : -e (extra vars)
+- Injecte des variables Ansible (extra_vars)
+- Permet de modifier le comportement du playbook sans le changer
+
+### Tâches spécifiques
+- option : -t (tags)
+- Exécute uniquement les tasks / roles taggés
+- Utile pour des opérations ciblées (patch, restart, deploy…)
 
 # Licence
 Ce projet est sous licence Apache 2.0. Voir le fichier [LICENCE](license) pour plus de détails.
