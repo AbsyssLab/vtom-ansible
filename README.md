@@ -51,7 +51,7 @@ The main action is to execute an Ansible Playbook by providing the following man
 
 ## Optional Arguments
 
-### Specific Inventory
+### Management of execution context
 - option: -i (inventory)
 - Uses a custom Ansible inventory
 - Allows targeting different environments (prod, preprod, etc.)
@@ -61,9 +61,9 @@ The main action is to execute an Ansible Playbook by providing the following man
 - Injects Ansible variables (extra_vars)
 - Allows modifying the playbook behavior without changing it
 
-### Specific Tasks
+### Execution of specific tasks
 - option: -t (tags)
-- Executes only tagged tasks / roles
+- Executes only tagged tasks / roles of playbook
 - Useful for targeted operations (patch, restart, deploy…)
 
 # License
