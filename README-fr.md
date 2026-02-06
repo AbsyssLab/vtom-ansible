@@ -53,7 +53,7 @@ L'action principale est d'exécuter un Playbook Ansible en renseignant les deux 
 
 ## Arguments optionnels
 
-### Inventaire spécifique
+### Gestion du contexte d'exécution
 - option : -i (inventory)
 - Utilise un inventaire Ansible personnalisé
 - Permet de cibler des environnements différents (prod, preprod, etc.)
@@ -63,9 +63,9 @@ L'action principale est d'exécuter un Playbook Ansible en renseignant les deux 
 - Injecte des variables Ansible (extra_vars)
 - Permet de modifier le comportement du playbook sans le changer
 
-### Tâches spécifiques
+### Exécution de tâches spécifiques
 - option : -t (tags)
-- Exécute uniquement les tasks / roles taggés
+- Exécute uniquement les tasks / roles taggés du playbook
 - Utile pour des opérations ciblées (patch, restart, deploy…)
 
 # Licence
